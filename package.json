@@ -1,0 +1,24 @@
+{
+  "name": "trivia-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node utils/generator.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinuulong/trivia-game.git"
+  },
+  "keywords": [],
+  "author": "Kevin Long <kevinuulong@gmail.com> (https://kevinuulong.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinuulong/trivia-game/issues"
+  },
+  "homepage": "https://github.com/kevinuulong/trivia-game#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
