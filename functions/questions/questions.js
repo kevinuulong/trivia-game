@@ -1,5 +1,6 @@
+const fetch = require('node-fetch');
 const path = require('path');
-const questions = require(path.resolve('./functions/questions.json'))
+const questions = require('./questions.json')
 
 const handler = async (event) => {
 	try {
