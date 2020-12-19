@@ -1,5 +1,5 @@
 const path = require('path');
-const questions = require(path.resolve('./questions/questions.json'))
+const questions = require(path.resolve('./functions/questions.json'))
 
 const handler = async (event) => {
 	try {
